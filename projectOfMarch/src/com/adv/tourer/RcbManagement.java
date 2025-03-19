@@ -3,12 +3,18 @@ package com.adv.tourer;
 
 
 public class RcbManagement {
-    void rcbTeam()
+    public void runrcb()
     {
-        Rcb rcb=new Rcb();
-        RcbManagement rcbManagement=new RcbManagement();
-        rcb.TeamMem(rcbManagement);
-
+      RcbManagement rcbManagement=new RcbManagement();
+      Rcb rcb=new Rcb();
+      rcb.teamMem(rcbManagement);
 
     }
+
+    void runrcbteam()
+    {
+        System.out.println("RCB running");
+    }
+
+
 }

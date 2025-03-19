@@ -1,12 +1,15 @@
 package com.adv.tourer;
-
-import javax.sound.midi.Soundbank;
-import javax.xml.bind.SchemaOutputResolver;
-
 public class Rcb {
-    void TeamMem(RcbManagement rcbManagement)
+    public void teamMem(RcbManagement rcbManagement)
     {
-        System.out.println("listed all players");
+
+            System.out.println("listed all players");
+
+
+            if(rcbManagement!=null)
+            {
+                rcbManagement.runrcbteam();
+            }
     }
 
 }

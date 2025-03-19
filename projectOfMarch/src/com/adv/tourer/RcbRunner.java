@@ -5,7 +5,7 @@ import java.sql.SQLOutput;
 public class RcbRunner {
     public static void main(String[] args) {
         System.out.println("Running main class of RCB");
-        RcbManagement rcb=new RcbManagement();
-        rcb.rcbTeam();
+        RcbManagement r=new RcbManagement();
+        r.runrcb();
     }
 }
